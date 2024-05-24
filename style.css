@@ -1487,6 +1487,26 @@ body {
     .navbar-list:hover .navbar-link:not(:hover) {
         color: var(--white-60);
     }
+    .join-with-us,
+    .footer {
+        background-color: #f2f2f2;
+    }
+    .join-with-us,
+    .footer {
+        background-color: #f2f2f2;
+    }
+
+    .join-with-us img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .footer {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px 0;
+    }
 
 
     /**
@@ -1619,14 +1639,25 @@ body {
     opacity: 1;
     visibility: visible;
 }
+.header.hidden {
+    display: none;
+}
 
 .card-image {
     display: block;
-    width: 520px; /* Set a fixed width */
-    height: 325px; /* Set a fixed height */
+    width: 520px;
+    height: 325px;
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
+.bg-alternate {
+    background-color: #f2f2f2;
+}
+
+.section-separator {
+    height: 50px;
+}
+
 
 .card-hover-wrapper:hover .card-image {
     opacity: 0.3; /* Dim the image a bit when hovering */
