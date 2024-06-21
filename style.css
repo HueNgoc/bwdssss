@@ -1712,3 +1712,186 @@
     .card-hover-wrapper:hover .card-image {
         opacity: 0.3; /* Dim the image a bit when hovering */
     }
+
+
+    /*-----------------------------------*\
+      #FOOTER
+
+     */
+    /* General styles */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .footer {
+        background: #052501;
+        padding: 90px 0px;
+    }
+
+    .footer-container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-col {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .footer-col p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .address {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .address p {
+        display: block;
+        color: #fff;
+    }
+
+    .address h3 {
+        color: #fff;
+        font-size: 29px;
+        font-weight: 500;
+        padding-top: 15px;
+        padding-bottom: 3px;
+        border-bottom: #3e7f21 solid 4px;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+
+    .Links_footer {
+        list-style: none;
+        padding: 0;
+    }
+
+    .Links_footer li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Links_footer img {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    .Links_footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Links_footer a:hover {
+        color: #30880d;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .form-control:focus, .form-control:hover {
+        border: #ddd solid 1px !important;
+    }
+
+    .footer .address .submit-btn {
+        padding: 8px 45px;
+        border: #30880d solid 1px;
+        background: #30880d;
+        color: #fff;
+        font-weight: 500;
+        font-size: 19px;
+        border-radius: 10px;
+    }
+
+    .footer .address .submit-btn:hover {
+        background: #fff;
+        border: #fff solid 1px;
+        color: #30880d;
+    }
+
+    .loca {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .loca li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .loca img {
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    .copyright {
+        background: #30880d;
+        padding: 20px 0px 20px 0;
+    }
+    .copyright p {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .copyright a {
+        color: #ffff;
+    }
+    .copyright a:hover {
+        color: #000;
+    }
+
+    .footer-bottom {
+        background: #30880d;
+        padding: 20px 0px 20px 0;
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .footer-col {
+            width: calc(50% - 10px);
+        }
+    }
+
+    @media (min-width: 992px) {
+        .footer-col {
+            width: calc(25% - 20px);
+        }
+    }
+
+
+
+
