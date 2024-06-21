@@ -22,14 +22,9 @@
 <body>
 <header class="header active" data-header>
   <div class="container">
-
     <h1>
       <a href="#" class="logo">SaveLife</a>
     </h1>
-
-    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-      <ion-icon name="menu-outline"></ion-icon>
-    </button>
 
     <nav class="navbar" data-navbar>
 
@@ -65,7 +60,7 @@
         </li>
 
         <li>
-          <a href="index.html" class="navbar-link" data-nav-link>
+          <a href="event.html" class="navbar-link" data-nav-link>
             <span>Event</span>
 
             <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
@@ -76,8 +71,13 @@
 
     </nav>
 
+    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+      <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
     <div class="header-action">
 
+      <input class="form-control" placeholder="Search" type="type" name="Search">
       <button class="search-btn" aria-label="Search">
         <ion-icon name="search-outline"></ion-icon>
       </button>
@@ -194,14 +194,12 @@
     </div>
   </section>
 
-  <section class="join-with-us" style="padding: 30px 0 50px 0; background-color: #f9f9f9;">
+  <section class="join-with-us" style="padding: 30px 0 50px 0; background-color: #f9f9f9; font-size: 150%" >
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="join-content">
-            <h2 class="h2 section-title">
-              Join with us to <strong>Save the World.</strong>
-            </h2>
+            <h2 class="h2 section-title">Report Violations</h2>
             <p>Together, we can make a difference. Become a part of our mission to protect and preserve wildlife for future generations.</p>
           </div>
           <form action="#">
@@ -217,18 +215,19 @@
               <label class="sr-only" for="message">Message</label>
               <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Write us something"></textarea>
             </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary w-100">Send Message</button>
-            </div>
+
+              <button type="submit" class="btn btn-primary w-100">Report</button>
+
           </form>
         </div>
 
         <div class="col-md-6">
-          <img style="padding: 70px 0 0 0; width: 100%; margin-left: 20px" src="https://eduauraapublic.s3.amazonaws.com/webassets/images/blogs/simple-ways-on-conservation-of-wildlife.jpg" class="img-fluid">
+          <img style="padding: 70px 0 0 0; width: 100%; margin-left: 20px" src="https://eduauraapublic.s3.amazonaws.com/webassets/images/blogs/simple-ways-on-conservation-of-wildlife.jpg" class="img-fluid" alt="Wildlife Conservation">
         </div>
       </div>
     </div>
   </section>
+
 
   <footer>
     <div class="footer top_layer">
@@ -237,7 +236,7 @@
         <div class="footer-row">
           <div class="footer-col">
             <div class="address">
-              <a href="#" class="logo">SaveLife</a>
+              <a href="#" class="logo2">SaveLife</a>
               <p>SaveLife helps users become aware of wildlife protection, their importance, and educates
                 everyone to protect them.</p>
             </div>
@@ -249,7 +248,7 @@
                 <li><img src="icon/3.png" alt="index.html"/> <a href="index.html"> Home</a></li>
                 <li><img src="icon/3.png" alt="about.html"/> <a href="about.html">About</a></li>
                 <li><img src="icon/3.png" alt="information.html"/> <a href="information.html">Information</a></li>
-                <li><img src="icon/3.png" alt="#event"/> <a href="#event">Events</a></li>
+                <li><img src="icon/3.png" alt="#event"/> <a href="event.html">Events</a></li>
               </ul>
             </div>
           </div>
